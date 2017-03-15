@@ -1,0 +1,9 @@
+[submodule ".vim/bundle/vim-twig"]
+	path = .vim/bundle/vim-twig
+	url = https://github.com/lumiliet/vim-twig.git
+[submodule ".vim/bundle/vim-sensible"]
+	path = .vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule ".vim/bundle/solarized"]
+	path = .vim/bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git

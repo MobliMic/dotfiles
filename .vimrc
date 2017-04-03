@@ -9,3 +9,5 @@ colorscheme solarized
 set expandtab
 set tabstop=4
 set shiftwidth=4
+
+map <F7> mzgg=G`z

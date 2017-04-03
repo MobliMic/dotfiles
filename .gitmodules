@@ -13,3 +13,9 @@
 [submodule ".vim/bundle/vim-airline"]
 	path = .vim/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule ".vim/bundle/vim-pug"]
+	path = .vim/bundle/vim-pug
+	url = https://github.com/digitaltoad/vim-pug.git
+[submodule ".vim/bundle/disapprove"]
+	path = .vim/bundle/disapprove
+	url = https://github.com/dodie/vim-disapprove-deep-indentation.git

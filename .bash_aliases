@@ -14,6 +14,7 @@ alias gpu='git pull'
 alias gps='git push'
 alias gc='git commit -m'
 alias ga='git add'
+alias gb='git branch -a -vv'
 
 #docker
 alias docker-clear='docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'

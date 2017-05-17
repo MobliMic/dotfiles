@@ -15,6 +15,8 @@ alias gps='git push'
 alias gc='git commit -m'
 alias ga='git add'
 alias gb='git branch -a -vv'
+alias git-behind='git branch -a -vv | grep behind'
+alias git-ahead='git branch -a -vv | grep ahead'
 
 #docker
 alias docker-clear='docker rm $(docker ps -a -q) && docker rmi $(docker images -q)'

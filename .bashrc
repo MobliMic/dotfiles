@@ -132,3 +132,6 @@ if [ -f "/home/moblimic/.drush/drush.prompt.sh" ] ; then
   source /home/moblimic/.drush/drush.prompt.sh
 fi
 
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi

@@ -24,6 +24,8 @@ alias dockc='docker-compose'
  
 # other
 alias startme='express --css sass --git --view=pug'
-function calc { echo $1 | bc -l; }
+alias killnode='pkill -9 node'
 
-export -f calc
+dockerdb() {
+    docker run --name test-mariadb -e MYSQL_ROOT_PASSWORD=$1 -d mariadb
+}

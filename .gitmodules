@@ -7,8 +7,8 @@
 [submodule ".vim/bundle/solarized"]
 	path = .vim/bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule ".vim/budle/gitgutter"]
-	path = .vim/budle/gitgutter
+[submodule ".vim/bundle/gitgutter"]
+	path = .vim/bundle/gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
 [submodule ".vim/bundle/vim-airline"]
 	path = .vim/bundle/vim-airline
@@ -19,3 +19,6 @@
 [submodule ".vim/bundle/disapprove"]
 	path = .vim/bundle/disapprove
 	url = https://github.com/dodie/vim-disapprove-deep-indentation.git
+[submodule ".vim/bundle/vim-go"]
+	path = .vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git

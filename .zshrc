@@ -95,3 +95,10 @@ source $ZSH/oh-my-zsh.sh
 #
 source ~/dotfiles/.bash_aliases
 export PATH="/usr/local/opt/node@8/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/micheal/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/micheal/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/micheal/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/micheal/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+export PATH="/usr/local/opt/node@10/bin:$PATH"

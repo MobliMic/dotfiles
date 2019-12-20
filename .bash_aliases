@@ -4,6 +4,7 @@ alias ....='cd ../../../'
 alias cd..='cd ..'
 alias c=clear
 
+alias ll='ls -alh'
 alias lg='ls -alh | grep'
 alias numfiles='echo $(ls -1 | wc -l)'
 
